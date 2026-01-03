@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register - Crowd Count System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <div class="container mt-5">
+        <div class="card mx-auto" style="max-width: 400px;">
+            <div class="card-header text-center">
+                <h3>Register</h3>
+            </div>
+            <div class="card-body">
+                <form method="post">
+                    <div class="mb-3">
+                        <label>Username</label>
+                        <input type="text" name="username" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label>Password</label>
+                        <input type="password" name="password" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label>Role</label>
+                        <select name="role" class="form-control">
+                            <option value="user">User (View Only)</option>
+                            <option value="admin">Admin (Full Access)</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-success w-100">Register</button>
+                </form>
+                <p class="text-center mt-3">
+                    Already have account? <a href="/login">Login</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

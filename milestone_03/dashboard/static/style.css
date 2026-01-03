@@ -1,0 +1,14 @@
+body { background: #f0f2f5; font-family: Arial, sans-serif; }
+.zone-box {
+    padding: 30px;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    min-height: 160px;
+    font-size: 1.6rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.zone1 { background: #007bff; }
+.zone2 { background: #fd7e14; }
+.zone3 { background: #28a745; }
+.zone4 { background: #6f42c1; }
