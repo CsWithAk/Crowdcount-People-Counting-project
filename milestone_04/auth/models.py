@@ -4,7 +4,7 @@ from datetime import datetime
 from werkzeug.security import generate_password_hash, check_password_hash
 
 # REPLACE WITH YOUR MONGODB ATLAS URI
-MONGODB_URI = 'mongodb+srv://amit:amit@crowdcountdb.pjwxp4a.mongodb.net/' #'mongodb+srv://CrowdCountDB:Ak@123456@crowdcountdb.5dmmfrx.mongodb.net/' #"mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/?retryWrites=true&w=majority"
+MONGODB_URI = "mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/?retryWrites=true&w=majority"
 
 client = MongoClient(MONGODB_URI)
 db = client['crowd_count_db']
