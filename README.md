@@ -5,7 +5,7 @@
 ![CrowdCount Registration Form](Register_form.png)  
 ![CrowdCount Login Form](Login_form.png)
 ![CrowdCount Admin Dashboard](Admin_dashboard.png)
-![CrowdCount User Dashboard](User_dshboard.png)
+![CrowdCount User Dashboard](User_dashboard.png)
 
 ---
 
