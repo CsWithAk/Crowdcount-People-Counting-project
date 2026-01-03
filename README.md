@@ -57,30 +57,30 @@ Perfect for:
 ### 📂 Project Structure
 
 Crowdcount-people-counting-project/
-├── milestone_01                     # Project Zone creation
-├── miletone_02                      # People counting deepSORT algorithms Implementation
-├── milestone_03                     # live dashboard and flask app creation
-├── milestone_04                     # Main Internship Project
-    ├── main.py                      # Main Flask app + video processing
-    ├── camera_feed.py               # Camera handling
-    ├── zones.py                     # Zone management (local JSON or mongoDB if already zones uploaded)
-    ├── detection/
-    │   ├── detector.py              # YOLOv8 wrapper
-    │   ├── tracker.py               # DeepSORT wrapper
-    │   └── counter.py               # Zone counting + heatmap
-    ├── dashboard/
-    │   ├── /exports/                # CSV & PDF reports
-    │   ├── data_manager.py          # Shared live data
-    │   ├── templates/               # HTML pages (register, login, dashboard)
-    |   |    ├── index.html          # main Admin/User dashboard
-    |   |    ├── login.html          # login form
-    |   |    ├── register.html       # register form
-    |   |    └── static/             # CSS + JS
-    ├── auth/
-    │   └── models.py                # User auth with MongoDB
-    ├── utils/
-    │   └── report_generator.py      # PDF export
-    └── zones.json                   # Saved zones (auto-generated)
+-├── milestone_01                     # Project Zone creation
+-├── miletone_02                      # People counting deepSORT algorithms Implementation
+-├── milestone_03                     # live dashboard and flask app creation
+-├── milestone_04                     # Main Internship Project
+-    ├── main.py                      # Main Flask app + video processing
+-    ├── camera_feed.py               # Camera handling-
+-    ├── zones.py                     # Zone management  (local JSON or mongoDB if already zones uploaded)
+-    ├── detection/
+-    │   ├── detector.py              # YOLOv8 wrapper
+-    │   ├── tracker.py               # DeepSORT wrapper
+-    │   └── counter.py               # Zone counting + heatmap
+-    ├── dashboard/
+-    │   ├── /exports/                # CSV & PDF reports
+-    │   ├── data_manager.py          # Shared live data
+-    │   ├── templates/               # HTML pages (register, login, dashboard)
+-    |   |    ├── index.html          # main Admin/User dashboard
+-    |   |    ├── login.html          # login form
+-    |   |    ├── register.html       # register form
+-    |   |    └── static/             # CSS + JS
+-    ├── auth/
+-    │   └── models.py                # User auth with MongoDB
+-    ├── utils/
+-    │   └── report_generator.py      # PDF export
+-    └── zones.json                   # Saved zones (auto-generated)
  
 
 ---
@@ -89,7 +89,7 @@ Crowdcount-people-counting-project/
 
 #### 1. Clone & Setup
 ```bash
-git clone https://github.com/yourusername/crowdcount-project.git
+git clone [https://github.com/CsWithAk/Crowdcount-People-Counting-project.git]
 cd crowdcount-project
 python -m venv venv
 source venv/bin/activate    # Linux/Mac
@@ -119,24 +119,24 @@ Login → Full dashboard with all features
 
 ### 🙏 Acknowledgements
 
-Ultralytics for YOLOv8
-DeepSORT-Realtime team
-Flask & Bootstrap communities
-MongoDB Atlas (free tier)
+- Ultralytics for YOLOv8
+- DeepSORT-Realtime team
+- Flask & Bootstrap communities
+- MongoDB Atlas (free tier)
 
 ---
 ### 👨‍💻 Author
 # Amit Kumar
-Infosys springboard 6.0 Internship Project – 2025
-"Turning pixels into insights – one person at a time."
+- Infosys springboard 6.0 Internship Project – 2025
+- "Turning pixels into insights – one person at a time."
 
 ---
 
-Star this repo if you found it useful! 🌟
-Feel free to fork and enhance it further.
-Thank you for using CrowdCount! 🚀
+- Star this repo if you found it useful! 🌟
+- Feel free to fork and enhance it further.
+- Thank you for using CrowdCount! 🚀
 
--
+---
 
 
 
