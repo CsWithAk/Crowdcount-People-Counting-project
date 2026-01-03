@@ -2,10 +2,10 @@
 
 **A complete, secure, and professional crowd monitoring system built with Computer Vision, Deep Learning, and Web Dashboard.**
 
-![CrowdCount Registration Form]()  
-![CrowdCount Login Form]()
-![CrowdCount Admin Dashboard]()
-![CrowdCount User Dashboard]()
+![CrowdCount Registration Form](Register_form.png)  
+![CrowdCount Login Form](Login_form.png)
+![CrowdCount Admin Dashboard](Admin_dashboard.png)
+![CrowdCount User Dashboard](User_dshboard.png)
 
 ---
 
