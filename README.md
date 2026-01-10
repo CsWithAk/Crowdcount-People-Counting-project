@@ -57,10 +57,10 @@ Perfect for:
 ### 📂 Project Structure
 
 Crowdcount-people-counting-project/
--├── milestone_01                     # Project Zone creation
--├── miletone_02                      # People counting deepSORT algorithms Implementation
--├── milestone_03                     # live dashboard and flask app creation
--├── milestone_04                     # Main Internship Project
+- ├── milestone_01                    # Project Zone creation
+- ├── miletone_02                     # People counting deepSORT algorithms Implementation
+- ├── milestone_03                    # live dashboard and flask app creation
+- ├── milestone_04                    # Main Internship Project
 -    ├── main.py                      # Main Flask app + video processing
 -    ├── camera_feed.py               # Camera handling-
 -    ├── zones.py                     # Zone management  (local JSON or mongoDB if already zones uploaded)
@@ -98,12 +98,14 @@ pip install -r requirements.txt
 ```
 
 #### 2. Update MongoDB URL
-open auth/modles.py
+open milestone_04/auth/modles.py
 ```bash
 MONGODB_URI = "mongodb+srv://youruser:yourpass@yourcluster.mongodb.net/"
 ```
 
 #### 3. Run this Application
+final System  
+Open milestone_04/main.py
 ```bash
 Python main.py
 ```
